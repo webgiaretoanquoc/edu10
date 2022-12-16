@@ -1,0 +1,357 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.lien-he-price{
+	color: red;
+	font-weight: bold;
+}
+.box-text .product-title a{
+	color: #05939c;
+	font-weight: bold;
+	font-size: 17px;
+}
+.section-giang-vien{
+	background: linear-gradient(90deg,rgba(31,177,120,1) 0,rgba(3,145,158,1) 100%,rgba(0,212,255,1) 100%)!important;
+}
+.section-ket-noi .col{
+	padding-bottom: 10px !important
+}
+.row-bo-vien {
+	padding-bottom: 0px !important
+}
+.row-bo-vien  .col-inner{
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 6px 6px 6px 6px;
+	border-color: #6ec1e4;
+	background: white;
+	padding: 10px;
+	min-height: 379px;
+}
+blockquote {
+	border-left: 3px solid;
+	border-right: solid 1px;
+	border-color: #05939c!important;
+	background: url(images/left-quote.png) no-repeat;
+	background-position: left 5px;
+	background-size: 3%;
+	box-shadow: 2px 2px 15px #ccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px!important;
+}
+h1.entry-title{
+	color: #05939c;
+}
+.box-overlay.dark .box-text, .box-shade.dark .box-text {
+	text-shadow: none;
+}
+.portfolio-box:hover .box-image,.portfolio-box:hover .box-text{
+	background: linear-gradient(to bottom,rgba(255,255,255,0) 40%,#ffffff 100%);
+}
+.portfolio-box .box-text h6,.portfolio-box .box-text p,.portfolio-box .box-text{
+	color: black;
+}
+.ow_vote_fancybox-outer h2{
+	background-color: #2993D1 !important
+}
+.ow_vote_show_contestants ul.ow_vote_menu_links li a, .ow_vote_single_section ul.ow_vote_menu_links li a{
+	color: white !important
+}
+.ow_vote_show_contestants ul.ow_vote_menu_links, .ow_vote_single_section ul.ow_vote_menu_links{
+	background:#3D88BE !important;
+}
+.ow_vote_navmenu_link .ow_vote_submit_entry,.voteconestant-edit .ow_vote_submit_entry {
+	display: none !important;
+}
+ul.ow_vote_menu_links li.ow_vote_float_right{
+	display: none !important;
+}
+ul.ow_vote_menu_links li.ow_vote_menu_sort{
+	float: right;
+}
+h3.title-footer{
+	color: #fedc0f;
+}
+.category .box-text h5{
+	text-transform: uppercase;
+}
+.category .box-text .from_the_blog_excerpt {
+	font-weight: bold;
+}
+.category .box-text .button{
+	text-transform: initial;
+	color: #05939c;;
+	font-weight: normal;
+}
+#secondary,.div-widget .sidebar-wrapper{
+	border: 1px dashed#05939c;;
+	padding: 0px 10px;
+}
+.post-sidebar .widget-title,.div-widget .widget-title {
+	margin-left: -10px;
+	margin-right: -10px;
+	background:#05939c;;
+	color: white;
+	display: block;
+	padding: 10px;
+}
+li.ow_vote_navmenu_link .ow_vote_submit_entry{
+	display: none;
+}
+.ow_vote_menu_links .ow_vote_filter_votes {
+	padding: 0px 10px !important;
+	height: 26px;}
+.ow_vote_contest_top_bar{
+	background:#05939c;
+}
+.ow_vote_grid .ow_show_vote_square{
+	background:#05939c;
+}
+.entry-content{
+	padding-top: 0px !important;
+}
+.div-bao .col-inner{
+	border: 1px solid #c6b6b6;
+	overflow: auto;
+	height: 320px;
+	padding: 10px 10px 10px 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0);
+	background: #f5f6f7;
+}
+.div-bao .icon-box{
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #c5afaf;
+	/* padding-bottom: 10px; */
+	padding-bottom: 10px;
+}
+.section-tin-moi .box-text{
+	height: 76px;
+	overflow: hidden;
+	background: #05939c;
+	padding: 15px 15px;
+}
+.section-tin-moi .post-title{
+	color: white;
+}
+
+.slider-nav-outside .flickity-prev-next-button.previous{
+	opacity: 1;
+}
+.section-hoc-vien .slider-nav-outside .flickity-prev-next-button.previous {
+	left: auto;
+	right: 103%;
+}
+.section-hoc-vien .slider-nav-outside .flickity-prev-next-button.next {
+	right: auto;
+	left: 104%;
+}
+.slider-nav-outside .flickity-prev-next-button.next{
+	opacity: 1;
+}
+.slider-nav-light .flickity-prev-next-button svg, .slider-nav-light .flickity-prev-next-button .arrow {
+	fill: #05939c;
+}
+.slider-nav-light .flickity-prev-next-button {
+	color: #05939c;
+}
+.slider .flickity-prev-next-button:hover svg, .slider .flickity-prev-next-button:hover .arrow {
+	fill: #05939c;
+}
+.section-giang-vien .portfolio-box:hover .box-text-inner{
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate(10%, 0%);
+	-ms-transform: translate(0%, 0%);
+	-o-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+}
+.section-giang-vien .portfolio-box{
+	background: #ffffff26
+}
+.section-giang-vien .box-text .box-text-inner{
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transform: translate(10%, 10%);
+	-ms-transform: translate(0%, 0%);
+	-o-transform: translate(0%, 0%);
+	transform: translate(0%, -10%);
+}
+.section-hoc-vien .img-inner{
+	border-radius: 5px;
+}
+.section-hoc-vien .img-inner img{
+	border: 5px solid #2493CB;
+	border-radius: 7px;
+}
+#main .section-hoc-vien div.img{
+	width: 40% !important;
+}
+.section-chung-nhan{
+	background-image: url(images/nen-chung-nhan.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.section-footer,.section-ket-noi {
+	background-image: url(images/nen-footer.png);
+	background-repeat: repeat;
+	background-size: 20% auto;
+	background-color: white !important;
+
+}
+.section-ket-noi .section-bg {
+	transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+	background: linear-gradient(90deg,rgba(31,177,120,1) 0,rgba(3,145,158,1) 100%,rgba(0,212,255,1) 100%)!important;
+	opacity: .88;
+}
+.section-footer .section-bg{
+	opacity: .88;
+	background-color: #006977;
+}
+.section-footer p,.section-footer li a{
+	color: white;
+}
+.title-small{
+	color: #05939c;
+}
+.title-home{
+	font-size:29px;
+	text-align: center;
+	margin-bottom:0px;
+}
+.div-feeback .icon-box {
+	margin-top: 10px;
+	padding:10px;
+	box-shadow: 0 0 5px rgba(0,0,0,.15)
+} 
+.title-xanh{
+	color: #05939c;
+}
+.title-trang{
+	color: white;
+}
+.section-giang-vien .flickity-button {
+	display: none;
+}
+.div-no-padding{
+	padding-bottom: 0px !important;
+}
+.row-block-header h4{
+	font-size:15px;
+}
+.row-block-header p{
+	font-size:15px;
+}
+.is-divider{
+	display: none;
+}
+.header-bottom{
+	background: #1fb178;
+	background: linear-gradient(90deg,rgba(31,177,120,1) 0,rgba(3,145,158,1) 100%,rgba(0,212,255,1) 100%);
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+@media(max-width: 855px){
+	.box-vertical  .box-image {
+		margin-right: 9px;
+		width: 33% !important;
+		float: left;
+	}
+	.box-vertical .box-text {
+		padding-top: 0px;
+		margin-right: 0px;
+		/* width: 66%; */
+		padding-bottom: 0px;
+		padding-left: 124px;
+		padding-right: 2px;
+	}
+	.title-home {
+		font-size: 18px;}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
